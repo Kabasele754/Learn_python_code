@@ -69,13 +69,40 @@ print("La division floatante de deux nombres :", nbr1, " + ", nbr2," = ", divisi
 print("La division entiere de deux nombres   :", nbr1, " + ", nbr2," = ", division_floatante)
 print("Le modulo de deux nombres             :", nbr1, " + ", nbr2," = ", modulo)
 print("La puissance de deux nombres          :", nbr1, " + ", nbr2," = ", puissance)
+print()
 
 
 
 """
 Les entiers peuvent être des valeurs binaires, octales et hexadécimales.
 """
+print("Les entiers peuvent être des valeurs binaires, octales et hexadécimales.")
 
+"""
+Binaire
+Un nombre ayant 0b avec huit chiffres dans la combinaison de 0 et 1 représente les nombres binaires en Python. 
+Par exemple, 0b11011000 est un nombre binaire équivalent à l'entier 216.
+"""
 nbr_binary   = 0b11011000 # binary
+
+"""
+Octal
+Un nombre ayant 0o ou 0O comme préfixe représente un nombre octal . 
+
+Par exemple, 0O12 est équivalent à l'entier 10.
+"""
 nbr_octal    = 0o12 # octal
+
+"""
+Hexadécimal
+Un nombre avec 0x ou 0X comme préfixe représente un nombre hexadécimal . 
+
+Par exemple, 0x12 est équivalent à l'entier 18.
+"""
 nbr_hexal    = 0x12 # hexadecimal
+
+print()
+
+print("Le nombre binaire converti en numerique : ", nbr_binary, " Son type est       : ", type(nbr_binary))
+print("Le nombre octal converti en numerique : ", nbr_octal,  " Son type est         : ", type(nbr_octal))
+print("Le nombre hexadecimal converti en numerique : ", nbr_hexal , " Son type est   : ", type(nbr_hexal))
