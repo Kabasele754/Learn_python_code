@@ -1,3 +1,12 @@
+"""
+En Python, les entiers sont des nombres entiers nuls, positifs ou négatifs 
+sans partie fractionnaire et ayant une précision illimitée, par exemple 0, 100, -10.
+ Les éléments suivants sont des littéraux entiers valides en Python.
+"""
+
+
+
+
 # Somme de trois nombres avec l'operateur arithmetique +
 
 # Declaration de trois variables nbr1, nbr2 wt somme de type entier
@@ -22,7 +31,23 @@ print("La puissance de deux nombres          :", nbr1, " + ", nbr2," = ", puissa
 print()
 
 
+"""
+Les zéros non nuls dans les entiers non nuls ne sont pas autorisés, 
+
+par exemple 000123 est un nombre invalide, 0000 est 0.
+
+nbr_nbr = 01234567890
+
+"""
+
+
 # Une autre facon de faire ce de mettre _ sur le nombre
+
+"""
+Python n'autorise pas la virgule comme délimiteur de nombre. 
+
+Utilisez _plutôt un trait de soulignement comme délimiteur.
+"""
 
 print("Une autre facon de faire ce de mettre _ sur le nombre")
 print()
@@ -45,3 +70,12 @@ print("La division entiere de deux nombres   :", nbr1, " + ", nbr2," = ", divisi
 print("Le modulo de deux nombres             :", nbr1, " + ", nbr2," = ", modulo)
 print("La puissance de deux nombres          :", nbr1, " + ", nbr2," = ", puissance)
 
+
+
+"""
+Les entiers peuvent être des valeurs binaires, octales et hexadécimales.
+"""
+
+nbr_binary   = 0b11011000 # binary
+nbr_octal    = 0o12 # octal
+nbr_hexal    = 0x12 # hexadecimal
